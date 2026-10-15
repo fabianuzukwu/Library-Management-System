@@ -24,3 +24,9 @@ const savelogsToDB = ( data ) => {
         } );
     } );
 };
+
+
+
+module.exports = {
+    savelogsToDB
+}
