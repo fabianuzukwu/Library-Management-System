@@ -1,7 +1,23 @@
-[{
-    "id":1,
-    "bookName":"Last Days in Forcados High School",
+[
+  {
+    "id": 1,
+    "bookName": "Last Days in Forcados High School",
     "authors": "A. H. Mohammed",
     "isAvailable": true,
     "borrowingRecords": 3
-}]
+  },
+  {
+    "id": 2,
+    "bookName": "1984",
+    "authors": "George Orwell",
+    "isAvailable": false,
+    "borrowingRecords": 6
+  },
+  {
+    "id": 3,
+    "bookName": "Hamlet",
+    "authors": "William Shakespare",
+    "isAvailable": true,
+    "borrowingRecords": 20
+  }
+]

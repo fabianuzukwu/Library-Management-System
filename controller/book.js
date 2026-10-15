@@ -94,7 +94,7 @@ await saveToDB(JSON.stringify(database, null, 2));
  
     res.status(200).json({
         message: 'Book updated successfully',
-        data: database[indexBook]
+        data: book
     });
 };
 

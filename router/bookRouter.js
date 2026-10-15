@@ -6,12 +6,11 @@ const {    allBooks,  singleBook, newBook, updateBook,deleteBook} = require('../
 
 const logger = require('../middleware/logger')
 
-router.use(logger)
 
 router.get('/allbooks',logger, allBooks)
-router.get('/onebook',logger, singleBook)
+router.get('/onebook/:id',logger, singleBook)
 router.post('/newbook',logger, newBook)
-router.patch('/updatebook',logger,updateBook)
-router.delete('/deletebook',logger, deleteBook)
+router.patch('/updatebook/:id',logger,updateBook)
+router.delete('/deletebook/:id',logger, deleteBook)
 
 module.exports = router
