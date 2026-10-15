@@ -13,7 +13,7 @@ const saveToDB = ( data ) => {
     } );
 };
 
-const saveLogsToDB = ( data ) => {
+const savelogsToDB = ( data ) => {
     return new Promise( ( resolve, reject ) => {
         fs.appendFile( './model/logs.txt', data, ( error, data ) => {
             if ( error ) {
@@ -24,6 +24,7 @@ const saveLogsToDB = ( data ) => {
         } );
     } );
 };
+
 
 
 const allBooks = (req, res) => {
@@ -119,6 +120,7 @@ const deleteBook = async (req, res ) => {
 };
 
 module.exports = {
+    savelogsToDB,
     allBooks,
     singleBook,
     newBook,
