@@ -1,0 +1,12 @@
+API with endpoint: "/allbooks" and method: "GET" was called at: 10/15/2026, 8:09:49 PM
+API with endpoint: "/allbooks" and method: "GET" was called at: 10/15/2026, 8:09:50 PM
+API with endpoint: "/allbooks" and method: "GET" was called at: 10/15/2026, 8:10:36 PM
+API with endpoint: "/newbook" and method: "POST" was called at: 10/15/2026, 8:15:59 PM
+API with endpoint: "/newbook" and method: "POST" was called at: 10/15/2026, 8:17:35 PM
+API with endpoint: "/newbook" and method: "POST" was called at: 10/15/2026, 8:21:23 PM
+API with endpoint: "/onebook" and method: "GET" was called at: 10/15/2026, 8:22:05 PM
+API with endpoint: "/onebook/2" and method: "GET" was called at: 10/15/2026, 8:26:56 PM
+API with endpoint: "/onebook/3" and method: "GET" was called at: 10/15/2026, 8:27:08 PM
+API with endpoint: "/updatebook/2" and method: "PATCH" was called at: 10/15/2026, 8:30:25 PM
+API with endpoint: "/updatebook/2" and method: "PATCH" was called at: 10/15/2026, 8:31:47 PM
+API with endpoint: "/deletebook/4" and method: "DELETE" was called at: 10/15/2026, 8:33:33 PM
